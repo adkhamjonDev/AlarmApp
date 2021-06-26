@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/timeFragment"
+        android:title=""
+        android:icon="@drawable/ic_clock__1_"/>
+    <item android:id="@+id/compasFragment"
+        android:title=""
+        android:icon="@drawable/ic_compass__1_"/>
+    <item android:id="@+id/pickerFragment"
+        android:title=""
+        android:icon="@drawable/ic_rosary"/>
+    <item android:id="@+id/aboutFragment"
+        android:title=""
+        android:icon="@drawable/ic_information__1_"/>
+</menu>

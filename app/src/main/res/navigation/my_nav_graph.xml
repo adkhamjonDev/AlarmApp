@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/timeFragment">
+    <fragment
+        android:id="@+id/timeFragment"
+        android:name="com.example.alarmapp.fragments.TimeFragment"
+        android:label="fragment_time"
+        tools:layout="@layout/fragment_time" />
+    <fragment
+        android:id="@+id/compasFragment"
+        android:name="com.example.alarmapp.fragments.CompasFragment"
+        android:label="fragment_compas"
+        tools:layout="@layout/fragment_compas" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.alarmapp.fragments.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/pickerFragment"
+        android:name="com.example.alarmapp.fragments.PickerFragment"
+        android:label="fragment_picker"
+        tools:layout="@layout/fragment_picker" />
+</navigation>
